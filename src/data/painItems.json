@@ -1,0 +1,86 @@
+[
+  {
+    "type": "Cramping",
+    "lottie": "/lottie/01_Cramping.json"
+  },
+  {
+    "type": "Tearing",
+    "lottie": "/lottie/02_Tearing.json"
+  },
+  {
+    "type": "Burning",
+    "lottie": "/lottie/03_Burning.json"
+  },
+  {
+    "type": "Searing",
+    "lottie": "/lottie/04_Searing.json"
+  },
+  {
+    "type": "Scalding",
+    "lottie": "/lottie/05_Scalding.json"
+  },
+  {
+    "type": "Crushing",
+    "lottie": "/lottie/06_Crushing.json"
+  },
+  {
+    "type": "Heavy",
+    "lottie": "/lottie/07_Heavy.json"
+  },
+  {
+    "type": "Pressing",
+    "lottie": "/lottie/08_Pressing.json"
+  },
+  {
+    "type": "Pulsing",
+    "lottie": "/lottie/09_Pulsing.json"
+  },
+  {
+    "type": "Throbbing",
+    "lottie": "/lottie/10_Throbbing.json"
+  },
+  {
+    "type": "Dull",
+    "lottie": "/lottie/11_Dull.json"
+  },
+  {
+    "type": "Pinching",
+    "lottie": "/lottie/12_Pinching.json"
+  },
+  {
+    "type": "Stretching",
+    "lottie": "/lottie/13_Stretching.json"
+  },
+  {
+    "type": "Aching",
+    "lottie": "/lottie/14_Aching.json"
+  },
+  {
+    "type": "Gnawing",
+    "lottie": "/lottie/15_Gnawing.json"
+  },
+  {
+    "type": "Itching",
+    "lottie": "/lottie/16_Itching.json"
+  },
+  {
+    "type": "Piercing",
+    "lottie": "/lottie/17_Piercing.json"
+  },
+  {
+    "type": "Shooting",
+    "lottie": "/lottie/18_Shooting.json"
+  },
+  {
+    "type": "Squeezing",
+    "lottie": "/lottie/19_Squeezing.json"
+  },
+  {
+    "type": "Stabbing",
+    "lottie": "/lottie/20_Stabbing.json"
+  },
+  {
+    "type": "Tingling",
+    "lottie": "/lottie/21_Tingling.json"
+  }
+]
