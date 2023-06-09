@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <div className="flex h-screen w-full flex-col bg-stone-100">
+      <Navbar currentLanguage="English" logo={`Universal \nPain Translator`} />
     </div>
   );
 }
