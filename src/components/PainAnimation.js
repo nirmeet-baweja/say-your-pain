@@ -1,7 +1,10 @@
 import React from "react";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
+import { useTranslation } from "react-i18next";
 
 const PainAnimation = ({ painItem }) => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="flex flex-col items-center justify-center">
       <div>
@@ -17,7 +20,10 @@ const PainAnimation = ({ painItem }) => {
           />
         </Player>
       </div>
-      <div className="mt-4 text-2xl font-medium">{painItem.type}</div>
+      {i18n.language !== "en" && (
+        <div className="mt-4 text-2xl font-medium">{painItem.type}</div>
+      )}
+      <div className="mt-4 text-2xl font-medium">{t(`${painItem.type}`)}</div>
     </div>
   );
 };

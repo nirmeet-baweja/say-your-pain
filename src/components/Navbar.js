@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Sidebar from "./Sidebar";
 import { useTranslation } from "react-i18next";
 
-const Navbar = ({ logo, language, languageCode, currentLanguage }) => {
+const Navbar = ({ logo, language }) => {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
 
@@ -18,7 +18,7 @@ const Navbar = ({ logo, language, languageCode, currentLanguage }) => {
           onClick={toggleSidebar}
           className="z-[11] flex h-5 cursor-pointer flex-row items-center justify-end text-lg"
         >
-          {currentLanguage}&nbsp;
+          {t(`${language}`)}&nbsp;
           <svg
             stroke="currentColor"
             fill="currentColor"
