@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://nirmeet-baweja.github.io/say-your-pain/static/css/main.129a5954.css",
-    "main.js": "https://nirmeet-baweja.github.io/say-your-pain/static/js/main.b969202d.js",
+    "main.css": "https://nirmeet-baweja.github.io/say-your-pain/static/css/main.e28cc74e.css",
+    "main.js": "https://nirmeet-baweja.github.io/say-your-pain/static/js/main.bed1fff6.js",
     "static/js/787.4e34d4ff.chunk.js": "https://nirmeet-baweja.github.io/say-your-pain/static/js/787.4e34d4ff.chunk.js",
     "index.html": "https://nirmeet-baweja.github.io/say-your-pain/index.html",
-    "main.129a5954.css.map": "https://nirmeet-baweja.github.io/say-your-pain/static/css/main.129a5954.css.map",
-    "main.b969202d.js.map": "https://nirmeet-baweja.github.io/say-your-pain/static/js/main.b969202d.js.map",
+    "main.e28cc74e.css.map": "https://nirmeet-baweja.github.io/say-your-pain/static/css/main.e28cc74e.css.map",
+    "main.bed1fff6.js.map": "https://nirmeet-baweja.github.io/say-your-pain/static/js/main.bed1fff6.js.map",
     "787.4e34d4ff.chunk.js.map": "https://nirmeet-baweja.github.io/say-your-pain/static/js/787.4e34d4ff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.129a5954.css",
-    "static/js/main.b969202d.js"
+    "static/css/main.e28cc74e.css",
+    "static/js/main.bed1fff6.js"
   ]
 }
