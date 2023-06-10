@@ -1,8 +1,10 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Sidebar from "./Sidebar";
+import { useTranslation } from "react-i18next";
 
-const Navbar = ({ logo, currentLanguage }) => {
+const Navbar = ({ logo, language, languageCode, currentLanguage }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation();
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
@@ -11,10 +13,12 @@ const Navbar = ({ logo, currentLanguage }) => {
   return (
     <div className="fixed z-[10] w-full bg-white">
       <div className="flex h-20 flex-row items-center justify-between bg-gradient-to-b from-blue-400/20 from-10% to-white to-90% p-5 font-bold">
-        <div className="whitespace-pre text-sm capitalize">{logo}</div>
+        <div className="whitespace-pre text-sm capitalize">
+          {t(`${logo}`) + t(`${language}`) + t(`${languageCode}`)}
+        </div>
         <div
           onClick={toggleSidebar}
-          className="z-[11] flex h-5 flex-row items-center justify-end text-lg cursor-pointer"
+          className="z-[11] flex h-5 cursor-pointer flex-row items-center justify-end text-lg"
         >
           {currentLanguage}&nbsp;
           <svg

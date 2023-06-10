@@ -1,6 +1,16 @@
+import React from "react";
+import { useTranslation } from "react-i18next";
 import SidebarItem from "./SidebarItem";
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
+  const { i18n } = useTranslation();
+
+  const setLanguage = (lng) => {
+    console.log("language update");
+    console.log(lng);
+    i18n.changeLanguage(lng);
+  };
+
   return (
     isOpen && (
       <div
@@ -27,14 +37,26 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
               </svg>
             </div>
           </li>
-          <li className="m-4">
+          <li className="m-4" onClick={() => setLanguage("en")}>
             <SidebarItem language1={"English"} />
           </li>
-          <li className="m-4">
-            <SidebarItem language1={"English"} language2={"Spanish"} />
+          <li className="m-4" onClick={() => setLanguage("es")}>
+            <SidebarItem
+              language1={"English"}
+              language2={"Spanish"}
+            />
           </li>
-          <li className="m-4">
-            <SidebarItem language1={"English"} language2={"French"} />
+          <li className="m-4" onClick={() => setLanguage("uk")}>
+            <SidebarItem
+              language1={"English"}
+              language2={"Ukranian"}
+            />
+          </li>
+          <li className="m-4" onClick={() => setLanguage("zh")}>
+            <SidebarItem
+              language1={"English"}
+              language2={"Chinese"}
+            />
           </li>
         </ul>
       </div>

@@ -1,6 +1,8 @@
+import React from "react";
+
 const SidebarItem = ({ language1, language2 }) => {
   return (
-    <div className="grid grid-cols-3 gap-4 w-fit content-center">
+    <div className="grid w-fit grid-cols-3 content-center gap-4">
       <span>{language1}</span>
       {language2 && (
         <>
