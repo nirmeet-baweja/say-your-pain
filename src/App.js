@@ -1,7 +1,7 @@
+import "./App.css";
+
 import Navbar from "./components/Navbar";
 import PainCardContainer from "./components/PainCardContainer";
-
-import "./App.css";
 
 function App() {
   return (
