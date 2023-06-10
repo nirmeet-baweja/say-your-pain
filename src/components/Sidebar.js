@@ -11,12 +11,12 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       >
         <ul>
           <li className="m-4 mb-10">
-            <div class="close">
+            <div className="close">
               <svg
                 onClick={toggleSidebar}
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 16 16"
                 height="1em"
                 width="1em"

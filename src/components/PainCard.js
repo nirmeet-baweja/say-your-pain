@@ -9,7 +9,7 @@ const PainCard = ({ painItem }) => {
           //autoplay
           loop
           hover
-          src={painItem.lottie}
+          src={`${process.env.PUBLIC_URL}${painItem.lottie}`}
         >
           <Controls
             visible={false}
