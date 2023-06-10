@@ -10,7 +10,7 @@ const PainCard = ({ painItem }) => {
 
   return (
     <div
-      className="mb-3.5 flex flex-col items-center rounded bg-white p-10"
+      className="mb-3.5 flex cursor-pointer flex-col items-center rounded bg-white p-10"
       onClick={openModal}
     >
       <PainAnimation painItem={painItem} />

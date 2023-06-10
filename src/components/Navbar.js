@@ -14,7 +14,7 @@ const Navbar = ({ logo, currentLanguage }) => {
         <div className="whitespace-pre text-sm capitalize">{logo}</div>
         <div
           onClick={toggleSidebar}
-          className="z-[11] flex h-5 flex-row items-center justify-end text-lg"
+          className="z-[11] flex h-5 flex-row items-center justify-end text-lg cursor-pointer"
         >
           {currentLanguage}&nbsp;
           <svg
