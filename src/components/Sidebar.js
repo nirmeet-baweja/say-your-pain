@@ -4,15 +4,16 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
     isOpen && (
       <div
-        className="absolute right-0 top-0 h-screen w-80 -translate-x-full overflow-hidden bg-white p-2 font-normal text-neutral-600/70 shadow-[0_4px_12px_0_rgba(0,0,0,0.07),_0_2px_4px_rgba(0,0,0,0.05)] data-[te-sidenav-hidden='false']:translate-x-0 dark:bg-zinc-800 text-2xl"
+        className="absolute right-0 top-0 h-screen w-80 -translate-x-full overflow-hidden bg-white p-2 text-2xl font-normal text-neutral-600/70 shadow-[0_4px_12px_0_rgba(0,0,0,0.07),_0_2px_4px_rgba(0,0,0,0.05)] data-[te-sidenav-hidden='false']:translate-x-0 dark:bg-zinc-800"
         data-te-sidenav-init
         data-te-sidenav-hidden="false"
         data-te-sidenav-position="absolute"
       >
         <ul>
           <li className="m-4 mb-10">
-            <div className="cursor-pointer">
+            <div>
               <svg
+                className="cursor-pointer"
                 onClick={toggleSidebar}
                 stroke="currentColor"
                 fill="currentColor"
