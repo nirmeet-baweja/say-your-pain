@@ -13,9 +13,7 @@ const Navbar = ({ logo, language, languageCode, currentLanguage }) => {
   return (
     <div className="fixed z-[10] w-full bg-white">
       <div className="flex h-20 flex-row items-center justify-between bg-gradient-to-b from-blue-400/20 from-10% to-white to-90% p-5 font-bold">
-        <div className="whitespace-pre text-sm capitalize">
-          {t(`${logo}`) + t(`${language}`) + t(`${languageCode}`)}
-        </div>
+        <div className="whitespace-pre text-sm capitalize">{t(`${logo}`)}</div>
         <div
           onClick={toggleSidebar}
           className="z-[11] flex h-5 cursor-pointer flex-row items-center justify-end text-lg"
