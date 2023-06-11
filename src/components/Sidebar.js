@@ -6,7 +6,7 @@ const Sidebar = ({ isOpen, toggleSidebar, setCurrentLanguage }) => {
   return (
     isOpen && (
       <div
-        className="absolute right-0 top-0 h-screen w-80 -translate-x-full overflow-hidden bg-white p-2 text-2xl font-normal text-neutral-600/70 shadow-[0_4px_12px_0_rgba(0,0,0,0.07),_0_2px_4px_rgba(0,0,0,0.05)] data-[te-sidenav-hidden='false']:translate-x-0 dark:bg-zinc-800 dark:text-gray-200"
+        className="min-w-80 absolute right-0 top-0 h-screen -translate-x-full justify-end overflow-hidden bg-white p-2 text-2xl font-normal text-neutral-600/70 shadow-[0_4px_12px_0_rgba(0,0,0,0.07),_0_2px_4px_rgba(0,0,0,0.05)] data-[te-sidenav-hidden='false']:translate-x-0 dark:bg-zinc-800 dark:text-gray-200"
         data-te-sidenav-init
         data-te-sidenav-hidden="false"
         data-te-sidenav-position="absolute"

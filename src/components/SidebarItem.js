@@ -2,11 +2,11 @@ import React from "react";
 
 const SidebarItem = ({ language1, language2 }) => {
   return (
-    <div className="grid w-fit grid-cols-3 content-center gap-4">
-      <span>{language1}</span>
+    <div className="flex flex-row justify-start content-center gap-4">
+      <span className="w-fit">{language1}</span>
       {language2 && (
         <>
-          <span className="m-auto">
+          <span>
             <svg
               stroke="currentColor"
               fill="currentColor"
