@@ -1,4 +1,34 @@
 {
+  "lng": {
+    "translation": {
+      "language": "Name of the language",
+      "languageCode": "LNG_CODE",
+      "App name": "",
+      "Describe your pain": "",
+      "Close": "",
+      "Aching": "",
+      "Burning": "",
+      "Cramping": "",
+      "Crushing": "",
+      "Dull": "",
+      "Gnawing": "",
+      "Heavy": "",
+      "Itchy": "",
+      "Piercing": "",
+      "Pinching": "",
+      "Pressing": "",
+      "Pulsing": "",
+      "Scalding": "",
+      "Searing": "",
+      "Shooting": "",
+      "Squeezing": "",
+      "Stabbing": "",
+      "Stretching": "",
+      "Tearing": "",
+      "Throbbing": "",
+      "Tingling": ""
+    }
+  },
   "en": {
     "translation": {
       "language": "English",
@@ -57,6 +87,36 @@
       "Tearing": "Desgarrador",
       "Throbbing": "Pulsátil",
       "Tingling": "Hormigueante"
+    }
+  },
+  "fr": {
+    "translation": {
+      "language": "Français",
+      "languageCode": "FRA",
+      "App name": "Traducteur universel de la douleur",
+      "Describe your pain": "Décrivez votre douleur",
+      "Close": "Fermer",
+      "Aching": "Douloureux",
+      "Burning": "Brûlante",
+      "Cramping": "Crampe",
+      "Crushing": "Écrasante",
+      "Dull": "Sourde",
+      "Gnawing": "Rongeante",
+      "Heavy": "Lourd",
+      "Itchy": "Démangeaison",
+      "Piercing": "Perçant",
+      "Pinching": "Pinçant",
+      "Pressing": "Lancinante",
+      "Pulsing": "Pulsatile",
+      "Scalding": "Ébouillanter",
+      "Searing": "Fulgurante",
+      "Shooting": "Aiguë",
+      "Squeezing": "l'Écrasement",
+      "Stabbing": "Poignardant",
+      "Stretching": "Étiremente",
+      "Tearing": "Déchirante",
+      "Throbbing": "Palpitante",
+      "Tingling": "Picotement"
     }
   },
   "uk": {
