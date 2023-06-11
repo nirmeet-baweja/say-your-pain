@@ -119,6 +119,36 @@
       "Tingling": "Picotement"
     }
   },
+  "nl": {
+    "translation": {
+      "language": "Nederlands",
+      "languageCode": "LNG_CODE",
+      "App name": "Universele Pijnvertaler",
+      "Describe your pain": "Beschrijf je pijn",
+      "Close": "Sluiten",
+      "Aching": "Pijnlijke",
+      "Burning": "Brandend",
+      "Cramping": "Kramp",
+      "Crushing": "Verpletterend",
+      "Dull": "Doffe",
+      "Gnawing": "Knagend",
+      "Heavy": "Zwaar",
+      "Itchy": "Jeuk",
+      "Piercing": "Doordringende",
+      "Pinching": "Knijpend",
+      "Pressing": "Drukkend",
+      "Pulsing": "Pulserend",
+      "Scalding": "Schroeiend",
+      "Searing": "Schroeiend",
+      "Shooting": "",
+      "Squeezing": "Knijpen",
+      "Stabbing": "Stekend",
+      "Stretching": "Uitrekken",
+      "Tearing": "Scheurend",
+      "Throbbing": "Kloppend",
+      "Tingling": "Tintelingen"
+    }
+  },
   "uk": {
     "translation": {
       "language": "українська",
