@@ -2,6 +2,8 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import SidebarItem from "./SidebarItem";
 
+import resources from "../data/translations.json";
+
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   const { i18n } = useTranslation();
 
@@ -35,51 +37,25 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
               </svg>
             </div>
           </li>
-          <li
-            className="m-4"
-            onClick={() => {
-              setLanguage("en");
-              toggleSidebar();
-            }}
-          >
-            <SidebarItem language1={"English"} />
-          </li>
-          <li
-            className="m-4"
-            onClick={() => {
-              setLanguage("es");
-              toggleSidebar();
-            }}
-          >
-            <SidebarItem language1={"English"} language2={"Spanish"} />
-          </li>
-          <li
-            className="m-4"
-            onClick={() => {
-              setLanguage("fr");
-              toggleSidebar();
-            }}
-          >
-            <SidebarItem language1={"English"} language2={"French"} />
-          </li>
-          <li
-            className="m-4"
-            onClick={() => {
-              setLanguage("uk");
-              toggleSidebar();
-            }}
-          >
-            <SidebarItem language1={"English"} language2={"Ukranian"} />
-          </li>
-          <li
-            className="m-4"
-            onClick={() => {
-              setLanguage("zh");
-              toggleSidebar();
-            }}
-          >
-            <SidebarItem language1={"English"} language2={"Chinese"} />
-          </li>
+          {Object.keys(resources).map(
+            (key) =>
+              key !== "lng" && (
+                <li
+                  className="m-4"
+                  onClick={() => {
+                    setLanguage(key);
+                    toggleSidebar();
+                  }}
+                >
+                  <SidebarItem
+                    language1={"English"}
+                    language2={
+                      key !== "en" && resources[key].translation.language
+                    }
+                  />
+                </li>
+              )
+          )}
         </ul>
       </div>
     )
