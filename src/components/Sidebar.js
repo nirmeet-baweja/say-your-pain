@@ -6,15 +6,13 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
   const { i18n } = useTranslation();
 
   const setLanguage = (lng) => {
-    console.log("language update");
-    console.log(lng);
     i18n.changeLanguage(lng);
   };
 
   return (
     isOpen && (
       <div
-        className="absolute right-0 top-0 h-screen w-80 -translate-x-full overflow-hidden bg-white p-2 text-2xl font-normal text-neutral-600/70 shadow-[0_4px_12px_0_rgba(0,0,0,0.07),_0_2px_4px_rgba(0,0,0,0.05)] data-[te-sidenav-hidden='false']:translate-x-0 dark:bg-zinc-800"
+        className="absolute right-0 top-0 h-screen w-80 -translate-x-full overflow-hidden bg-white p-2 text-2xl font-normal text-neutral-600/70 shadow-[0_4px_12px_0_rgba(0,0,0,0.07),_0_2px_4px_rgba(0,0,0,0.05)] data-[te-sidenav-hidden='false']:translate-x-0 dark:bg-zinc-800 dark:text-gray-200"
         data-te-sidenav-init
         data-te-sidenav-hidden="false"
         data-te-sidenav-position="absolute"
@@ -37,26 +35,50 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
               </svg>
             </div>
           </li>
-          <li className="m-4" onClick={() => setLanguage("en")}>
+          <li
+            className="m-4"
+            onClick={() => {
+              setLanguage("en");
+              toggleSidebar();
+            }}
+          >
             <SidebarItem language1={"English"} />
           </li>
-          <li className="m-4" onClick={() => setLanguage("es")}>
-            <SidebarItem
-              language1={"English"}
-              language2={"Spanish"}
-            />
+          <li
+            className="m-4"
+            onClick={() => {
+              setLanguage("es");
+              toggleSidebar();
+            }}
+          >
+            <SidebarItem language1={"English"} language2={"Spanish"} />
           </li>
-          <li className="m-4" onClick={() => setLanguage("uk")}>
-            <SidebarItem
-              language1={"English"}
-              language2={"Ukranian"}
-            />
+          <li
+            className="m-4"
+            onClick={() => {
+              setLanguage("fr");
+              toggleSidebar();
+            }}
+          >
+            <SidebarItem language1={"English"} language2={"French"} />
           </li>
-          <li className="m-4" onClick={() => setLanguage("zh")}>
-            <SidebarItem
-              language1={"English"}
-              language2={"Chinese"}
-            />
+          <li
+            className="m-4"
+            onClick={() => {
+              setLanguage("uk");
+              toggleSidebar();
+            }}
+          >
+            <SidebarItem language1={"English"} language2={"Ukranian"} />
+          </li>
+          <li
+            className="m-4"
+            onClick={() => {
+              setLanguage("zh");
+              toggleSidebar();
+            }}
+          >
+            <SidebarItem language1={"English"} language2={"Chinese"} />
           </li>
         </ul>
       </div>
