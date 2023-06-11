@@ -122,7 +122,7 @@
   "nl": {
     "translation": {
       "language": "Nederlands",
-      "languageCode": "LNG_CODE",
+      "languageCode": "NED",
       "App name": "Universele Pijnvertaler",
       "Describe your pain": "Beschrijf je pijn",
       "Close": "Sluiten",
@@ -147,6 +147,36 @@
       "Tearing": "Scheurend",
       "Throbbing": "Kloppend",
       "Tingling": "Tintelingen"
+    }
+  },
+  "pe": {
+    "translation": {
+      "language": "دری",
+      "languageCode": "PER",
+      "App name": "مترجم درد جهانی",
+      "Describe your pain": "درد خود را توضع کنید",
+      "Close": "بسته",
+      "Aching": "درد",
+      "Burning": "سوزش",
+      "Cramping": "گرفتگی",
+      "Crushing": "",
+      "Dull": "",
+      "Gnawing": "",
+      "Heavy": "",
+      "Itchy": "خارش",
+      "Piercing": "",
+      "Pinching": "",
+      "Pressing": "",
+      "Pulsing": "درد تپش",
+      "Scalding": "درد سوزان",
+      "Searing": "درد سوزان",
+      "Shooting": "",
+      "Squeezing": "درد فشارآور",
+      "Stabbing": "",
+      "Stretching": "درد کششی",
+      "Tearing": "درد پاره شدن",
+      "Throbbing": "درد تپش",
+      "Tingling": "سوزش"
     }
   },
   "uk": {
