@@ -2,16 +2,16 @@ import React from "react";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import { useTranslation } from "react-i18next";
 
-const PainAnimation = ({ painItem }) => {
+const PainAnimation = ({ painItem, autoplay }) => {
   const { t, i18n } = useTranslation();
 
   return (
     <div className="flex flex-col items-center justify-center">
       <div>
         <Player
-          // autoplay
+          autoplay={autoplay}
           loop
-          hover
+          hover={!autoplay}
           src={`${process.env.PUBLIC_URL}${painItem.lottie}`}
         >
           <Controls

@@ -13,7 +13,7 @@ const PainCard = ({ painItem }) => {
       className="mb-3.5 flex cursor-pointer flex-col items-center rounded bg-white p-10"
       onClick={openModal}
     >
-      <PainAnimation painItem={painItem} />
+      <PainAnimation painItem={painItem} autoplay={false}/>
       <PainModal
         painItem={painItem}
         closeModal={closeModal}

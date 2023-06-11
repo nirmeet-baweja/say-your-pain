@@ -41,7 +41,7 @@ const PainModal = ({ painItem, closeModal, isModalOpen }) => {
                   <div className="sm:flex sm:items-start">
                     <div className="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
                       <div className="m-2">
-                        <PainAnimation painItem={painItem} />
+                        <PainAnimation painItem={painItem} autoplay={true} />
                       </div>
                     </div>
                   </div>
