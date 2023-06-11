@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Sidebar from "./Sidebar";
 import { useTranslation } from "react-i18next";
 
-const Navbar = ({ logo, language }) => {
+const Navbar = ({ logo, language, setCurrentLanguage }) => {
   const [isOpen, setIsOpen] = useState(false);
   const { t } = useTranslation();
 
@@ -35,7 +35,11 @@ const Navbar = ({ logo, language }) => {
             ></path>
           </svg>
         </div>
-        <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
+        <Sidebar
+          isOpen={isOpen}
+          toggleSidebar={toggleSidebar}
+          setCurrentLanguage={setCurrentLanguage}
+        />
       </div>
     </div>
   );

@@ -1,21 +1,8 @@
-import React, { useEffect } from "react";
-import { useTranslation } from "react-i18next";
-import { useLocalStorage } from "../utilities/useLocalStorage";
+import React from "react";
 import SidebarItem from "./SidebarItem";
 import resources from "../data/translations.json";
 
-const Sidebar = ({ isOpen, toggleSidebar }) => {
-  const [currentLanguage, setCurrentLanguage] = useLocalStorage(
-    "currentLanguage",
-    "en"
-  );
-
-  const { i18n } = useTranslation();
-
-  useEffect(() => {
-    i18n.changeLanguage(currentLanguage);
-  }, [currentLanguage, i18n]);
-
+const Sidebar = ({ isOpen, toggleSidebar, setCurrentLanguage }) => {
   return (
     isOpen && (
       <div
