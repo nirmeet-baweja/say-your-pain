@@ -8,7 +8,6 @@ const App = () => {
   return (
     <div className="flex h-full w-full flex-col bg-stone-100">
       <Navbar
-        currentLanguage="English"
         logo={"App name"}
         language={"language"}
         languageCode={"languageCode"}
