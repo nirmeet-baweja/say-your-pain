@@ -68,3 +68,54 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+### Phrases to translate -
+Universal Pain Translator
+
+Describe your pain
+
+Close
+
+Aching
+
+Burning
+
+Cramping
+
+Crushing
+
+Dull
+
+Gnawing
+
+Heavy
+
+Itchy
+
+Piercing
+
+Pinching
+
+Pressing
+
+Pulsing
+
+Scalding
+
+Searing
+
+Shooting
+
+Squeezing
+
+Stabbing
+
+Stretching
+
+Tearing
+
+Throbbing
+
+Tingling
