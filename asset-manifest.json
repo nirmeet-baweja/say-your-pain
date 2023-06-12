@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/say-your-pain/static/css/main.11264231.css",
-    "main.js": "/say-your-pain/static/js/main.5e472e3a.js",
+    "main.js": "/say-your-pain/static/js/main.b6692684.js",
     "static/js/787.4e34d4ff.chunk.js": "/say-your-pain/static/js/787.4e34d4ff.chunk.js",
+    "service-worker.js": "/say-your-pain/service-worker.js",
     "index.html": "/say-your-pain/index.html",
     "main.11264231.css.map": "/say-your-pain/static/css/main.11264231.css.map",
-    "main.5e472e3a.js.map": "/say-your-pain/static/js/main.5e472e3a.js.map",
+    "main.b6692684.js.map": "/say-your-pain/static/js/main.b6692684.js.map",
     "787.4e34d4ff.chunk.js.map": "/say-your-pain/static/js/787.4e34d4ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11264231.css",
-    "static/js/main.5e472e3a.js"
+    "static/js/main.b6692684.js"
   ]
 }
