@@ -1,9 +1,11 @@
 import React, { Fragment, useRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import PainAnimation from "./PainAnimation";
+import { useTranslation } from "react-i18next";
 
 const PainModal = ({ painItem, closeModal, isModalOpen }) => {
   const cancelButtonRef = useRef(null);
+  const { t } = useTranslation();
 
   return (
     <Transition.Root show={isModalOpen} as={Fragment}>
@@ -52,7 +54,7 @@ const PainModal = ({ painItem, closeModal, isModalOpen }) => {
                   onClick={closeModal}
                   ref={cancelButtonRef}
                 >
-                  Close
+                  {t("Close")}
                 </button>
               </Dialog.Panel>
             </Transition.Child>
